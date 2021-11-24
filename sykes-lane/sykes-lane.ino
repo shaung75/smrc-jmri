@@ -62,4 +62,28 @@ void loop() {
   for(int i = 0; i<sensors; i++) {
     cmri.set_bit(i, !digitalRead(sensor[i]));
   }
+
+
+/*
+  digitalWrite(pointPin[0], LOW);
+  delay(200);
+  digitalWrite(pointPin[0], HIGH);
+  delay(500);
+
+  digitalWrite(pointPin[1], LOW);
+  delay(200);
+  digitalWrite(pointPin[1], HIGH);
+  delay(500);
+
+  digitalWrite(pointPin[2], LOW);
+  delay(200);
+  digitalWrite(pointPin[2], HIGH);
+  delay(500);
+
+  digitalWrite(pointPin[3], LOW);
+  delay(200);
+  digitalWrite(pointPin[3], HIGH);
+  delay(500);
+*/
+  
 }
